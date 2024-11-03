@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl-Pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="conteiner">
+
+        <div class="menu">   
+            <div class="details">
+                <h1>Lista zadań</h1>
+            <p>Tak trzymaj!</p>
+            <div id="progressBar">
+                <div id="progress"></div>
+            </div>
+            </div>     
+            <div class="stat-number">
+                <p id="numbers">2/3</p>
+            </div>    
+        </div>
+        <form>
+            <input  type="text" id="taskInput" placeholder="Wpisz zadanie ...">
+            <button id="newTask" type="submit">+</button>
+        </form>
+        <ul class="task-list"></ul>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
